@@ -1,10 +1,8 @@
 const express = require('express');
 const app = express();
+const countriesNameRoutes = require('./api/routes/country');
 
-app.use((req, res, next)=>{
-    escape.status(200).json({
-        message:'Success'
-    });
-});
+app.use('/countries', countriesNameRoutes);
 
-module.exports = app; 
+
+module.exports = app;
