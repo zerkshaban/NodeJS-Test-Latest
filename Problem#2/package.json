@@ -1,0 +1,19 @@
+{
+  "name": "find-a-unique-country",
+  "version": "1.0.0",
+  "description": "Write a function that connects to and gets a unique country from a specific name given.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Zerk Shaban",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
