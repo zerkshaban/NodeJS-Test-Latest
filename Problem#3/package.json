@@ -1,0 +1,22 @@
+{
+  "name": "list-of-countries-matching-names",
+  "version": "1.0.0",
+  "description": " write a function that returns a list of countries where their name matches at least a part of one of these string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Zerk Shaban",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
