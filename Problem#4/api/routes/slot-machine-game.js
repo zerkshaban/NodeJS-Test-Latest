@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const fetch = require("node-fetch");
-const endpoint = `https://restcountries.eu/rest/v2/name`;
-
 
 let reel1 = ['cherry', 'lemon', 'apple', 'lemon', 'banana', 'banana', 'lemon', 'lemon'];
 let reel2 = ['lemon', 'apple', 'lemon', 'lemon', 'cherry', 'apple', 'banana', 'lemon'];
