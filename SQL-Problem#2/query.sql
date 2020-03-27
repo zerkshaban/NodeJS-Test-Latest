@@ -1,0 +1,1 @@
+select player_name from player where favorite_game = 'SLOT';
